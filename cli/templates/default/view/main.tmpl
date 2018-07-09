@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>我的 Todo 網站</title>
+<script src=".."></script>
+</head>
+<body>
+
+<!-- -->
+<div class="ts segmented list">
+    {{ }}
+        {{ }}
+    {{ }}
+</div>
+<!-- / -->
+
+<!-- -->
+<div class="ts input">
+    <input type="text" placeholder="在此輸入記事內容...">
+</div>
+<button class="ts button" onclick="Todo.Create">新增</button>
+<!-- / -->
+
+<script>
+// 連線至本地 Mego 服務。
+Server = new Mego("localhost:8080");
+// 定義一個 Todo 物件，用以與伺服器交流。
+Todo = {
+    Create: function() {
+
+    },
+    Update: function() {
+
+    },
+    Delete: function() {
+
+    },
+};
+</script>
+</body>
+</html>

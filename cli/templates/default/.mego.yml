@@ -1,0 +1,20 @@
+name: my_service
+version: 1.0.0
+
+models:
+  Todo:
+    id: int
+    content: string
+
+controllers:
+  Todo:
+    Browse:
+      handler: Todo.Browse
+      request:
+        page: int
+      response:
+        todos: []Todo
+    get:
+    create:
+    update:
+    delete:
